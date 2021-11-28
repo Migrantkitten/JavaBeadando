@@ -6,7 +6,6 @@
 package prog3beadando;
 
 import java.io.UnsupportedEncodingException;
-import java.nio.charset.StandardCharsets;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -22,6 +21,7 @@ public class LoginPage extends javax.swing.JFrame {
     
     public LoginPage() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
    
@@ -51,10 +51,10 @@ public class LoginPage extends javax.swing.JFrame {
         jLabel4.setText("Password:");
 
         jTextField_Username.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jTextField_Username.setText("jTextField1");
+        jTextField_Username.setText("Levente");
 
         jPasswordField_Password.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jPasswordField_Password.setText("jPasswordField1");
+        jPasswordField_Password.setText("password");
         jPasswordField_Password.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jPasswordField_PasswordActionPerformed(evt);

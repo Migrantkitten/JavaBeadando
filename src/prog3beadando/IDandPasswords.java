@@ -1,2 +1,0 @@
-package prog3beadando;
-
