@@ -245,13 +245,9 @@ public class AddEditView extends javax.swing.JFrame {
     }//GEN-LAST:event_jButtonSaveActionPerformed
 
     private void jButtonCloseActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonCloseActionPerformed
-        try {
-            this.dispose();
-            UserView uv = new UserView();
-            uv.setVisible(true);
-        } catch (SQLException ex) {
-            Logger.getLogger(AddEditView.class.getName()).log(Level.SEVERE, null, ex);
-        }
+        this.dispose();
+        UserView uv = new UserView();
+        uv.setVisible(true);
     }//GEN-LAST:event_jButtonCloseActionPerformed
 
     private void jButtonAddPictureActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonAddPictureActionPerformed
