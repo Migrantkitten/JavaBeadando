@@ -164,7 +164,6 @@ public class LoginPage extends javax.swing.JFrame {
             }else{
                 JOptionPane.showMessageDialog(null, "Invalid username or password");
             }
-         //   MyConnection.CloseConnection();
         } catch (SQLException ex) {
             Logger.getLogger(LoginPage.class.getName()).log(Level.SEVERE, null, ex);
         }
