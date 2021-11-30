@@ -85,6 +85,7 @@ public class AddEditView extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jRadioButtonMenuItem1 = new javax.swing.JRadioButtonMenuItem();
         jPanel1 = new javax.swing.JPanel();
         jButtonClose = new javax.swing.JButton();
         jButtonSave = new javax.swing.JButton();
@@ -99,6 +100,9 @@ public class AddEditView extends javax.swing.JFrame {
         jTextFieldManufactureYear = new javax.swing.JTextField();
         jTextFieldColor = new javax.swing.JTextField();
 
+        jRadioButtonMenuItem1.setSelected(true);
+        jRadioButtonMenuItem1.setText("jRadioButtonMenuItem1");
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jPanel1.setBackground(new java.awt.Color(116, 124, 146));
@@ -108,6 +112,7 @@ public class AddEditView extends javax.swing.JFrame {
         jButtonClose.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jButtonClose.setForeground(new java.awt.Color(161, 232, 175));
         jButtonClose.setText("Close");
+        jButtonClose.setBorder(null);
         jButtonClose.setPreferredSize(new java.awt.Dimension(95, 40));
         jButtonClose.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -119,6 +124,7 @@ public class AddEditView extends javax.swing.JFrame {
         jButtonSave.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jButtonSave.setForeground(new java.awt.Color(161, 232, 175));
         jButtonSave.setText("Save");
+        jButtonSave.setBorder(null);
         jButtonSave.setPreferredSize(new java.awt.Dimension(95, 40));
         jButtonSave.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -133,6 +139,7 @@ public class AddEditView extends javax.swing.JFrame {
         jButtonAddPicture.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jButtonAddPicture.setForeground(new java.awt.Color(161, 232, 175));
         jButtonAddPicture.setText("Add picture");
+        jButtonAddPicture.setBorder(null);
         jButtonAddPicture.setPreferredSize(new java.awt.Dimension(95, 40));
         jButtonAddPicture.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -333,6 +340,7 @@ public class AddEditView extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabelPicture;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JRadioButtonMenuItem jRadioButtonMenuItem1;
     private javax.swing.JTextField jTextFieldBrandName;
     private javax.swing.JTextField jTextFieldColor;
     private javax.swing.JTextField jTextFieldManufactureYear;
