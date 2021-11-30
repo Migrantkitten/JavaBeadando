@@ -25,8 +25,13 @@ public class UserView extends javax.swing.JFrame {
 
         jButtonAdd = new javax.swing.JButton();
 <<<<<<< HEAD
+<<<<<<< HEAD
         jButtonEdit = new javax.swing.JButton();
         jButtonRemove = new javax.swing.JButton();
+=======
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+>>>>>>> parent of 21ef467 ()
 =======
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
@@ -38,6 +43,10 @@ public class UserView extends javax.swing.JFrame {
 
         jButtonAdd.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        jButtonAdd.setIcon(new javax.swing.ImageIcon("C:\\Users\\kszab\\Downloads\\button\\add.png")); // NOI18N
+>>>>>>> parent of 21ef467 ()
 =======
         jButtonAdd.setIcon(new javax.swing.ImageIcon("C:\\Users\\kszab\\Downloads\\button\\add.png")); // NOI18N
 >>>>>>> parent of 21ef467 ()
@@ -48,6 +57,7 @@ public class UserView extends javax.swing.JFrame {
             }
         });
 
+<<<<<<< HEAD
 <<<<<<< HEAD
         jButtonEdit.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jButtonEdit.setText("Edit");
@@ -63,6 +73,8 @@ public class UserView extends javax.swing.JFrame {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButtonRemoveActionPerformed(evt);
 =======
+=======
+>>>>>>> parent of 21ef467 ()
         jButton2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jButton2.setIcon(new javax.swing.ImageIcon("C:\\Users\\kszab\\Downloads\\button\\edit.png")); // NOI18N
         jButton2.setText("Edit");
@@ -78,6 +90,9 @@ public class UserView extends javax.swing.JFrame {
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
+<<<<<<< HEAD
+>>>>>>> parent of 21ef467 ()
+=======
 >>>>>>> parent of 21ef467 ()
             }
         });
@@ -122,6 +137,7 @@ public class UserView extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
 <<<<<<< HEAD
+<<<<<<< HEAD
                 .addContainerGap(84, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addGroup(layout.createSequentialGroup()
@@ -132,6 +148,8 @@ public class UserView extends javax.swing.JFrame {
                         .addComponent(jButtonRemove, javax.swing.GroupLayout.PREFERRED_SIZE, 124, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 771, javax.swing.GroupLayout.PREFERRED_SIZE))
 =======
+=======
+>>>>>>> parent of 21ef467 ()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap(84, Short.MAX_VALUE)
@@ -143,6 +161,9 @@ public class UserView extends javax.swing.JFrame {
                         .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 146, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)))
+<<<<<<< HEAD
+>>>>>>> parent of 21ef467 ()
+=======
 >>>>>>> parent of 21ef467 ()
                 .addGap(59, 59, 59))
         );
@@ -151,6 +172,7 @@ public class UserView extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(34, 34, 34)
 <<<<<<< HEAD
+<<<<<<< HEAD
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 269, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 26, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -158,6 +180,8 @@ public class UserView extends javax.swing.JFrame {
                     .addComponent(jButtonEdit, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButtonAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE))
 =======
+=======
+>>>>>>> parent of 21ef467 ()
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 386, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -169,6 +193,9 @@ public class UserView extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addComponent(jButton3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGap(6, 6, 6)))
+<<<<<<< HEAD
+>>>>>>> parent of 21ef467 ()
+=======
 >>>>>>> parent of 21ef467 ()
                 .addGap(24, 24, 24))
         );
@@ -278,8 +305,11 @@ public class UserView extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButtonAdd;
 <<<<<<< HEAD
+<<<<<<< HEAD
     private javax.swing.JButton jButtonEdit;
     private javax.swing.JButton jButtonRemove;
+=======
+>>>>>>> parent of 21ef467 ()
 =======
 >>>>>>> parent of 21ef467 ()
     private javax.swing.JScrollPane jScrollPane1;
