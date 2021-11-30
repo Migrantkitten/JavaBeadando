@@ -22,6 +22,7 @@ public class LoginPage extends javax.swing.JFrame {
     public LoginPage() {
         initComponents();
         this.setLocationRelativeTo(null);
+        this.setResizable(false);
     }
 
    

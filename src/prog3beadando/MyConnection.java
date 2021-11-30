@@ -20,6 +20,7 @@ public class MyConnection {
             
             try {
                 con = DriverManager.getConnection("jdbc:mysql://localhost:3306/prog3database","root","root321");
+                //con = DriverManager.getConnection("jdbc:mysql://sql11.freemysqlhosting.net/sql11455022","sql11455022","ztMZhCubJw");
             } catch (Exception ex) {
                  System.out.println(ex.getMessage());
              }

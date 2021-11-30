@@ -30,16 +30,18 @@ import javax.swing.filechooser.FileNameExtensionFilter;
  */
 public class AddEditView extends javax.swing.JFrame {
 
-    String s;
+    String s = null;
     
     String[] data_ = new String[5];
     public AddEditView() {
         initComponents();
         this.setLocationRelativeTo(null);
+        this.setResizable(false);
     }
     public AddEditView(String[] data) throws SQLException, IOException {
         initComponents();
         this.setLocationRelativeTo(null);
+        this.setResizable(false);
         data_ = data;
         LoadData(data_);
     }
@@ -201,7 +203,10 @@ public class AddEditView extends javax.swing.JFrame {
 
     private void jButtonSaveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButtonSaveActionPerformed
         try {
-            InputStream is = new FileInputStream(new File(s));
+            InputStream is = null;
+            if (s != null) {
+                is = new FileInputStream(new File(s)); 
+            }
             if (data_[0] != null) {
                 Connection con = MyConnection.getConnection();
                 String sql = "update carparts set PartName=?, PartColor=?, PartManufactureYear=?, BrandName=?, PartPicture=? where ID=?";
@@ -223,7 +228,12 @@ public class AddEditView extends javax.swing.JFrame {
                 ps.setString(2, jTextFieldColor.getText());
                 ps.setString(3, jTextFieldManufactureYear.getText());
                 ps.setString(4, jTextFieldBrandName.getText());
-                ps.setBlob(5, is);
+                if (rootPaneCheckingEnabled) {
+                    ps.setBlob(5, is);
+                }
+                else{
+                    ps.setString(5, null);
+                }
                 ps.executeUpdate();
                 JOptionPane.showMessageDialog(this, "Update Successful");
             }
